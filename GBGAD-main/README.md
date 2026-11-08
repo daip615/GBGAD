@@ -8,10 +8,7 @@ with a graph convolutional network, and predicts sample-level anomaly scores
 from the concatenation of the sample representation and its assigned
 granular-ball graph embedding.
 
-The graph distance is `d_mn = ||c_m - c_n||_2`, the Euclidean distance between
-granular-ball centers. Neighborhood selection, Gaussian edge weights, and
-isolation scores use this distance without adding the ball radii. Radii remain
-in the ball node features and within-ball offset normalization.
+
 
 ## Files
 
